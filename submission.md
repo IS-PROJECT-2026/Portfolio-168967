@@ -78,28 +78,25 @@ You must engineer **three merge conflicts**, each triggered by a **different cau
 
 ### Conflict 1 — Full Chronology
 
-**What cause did you use?** [Name the type of conflict cause from the lecture]
+**What cause did you use?** [Same line modified differently]
 
 #### Step 1: Generating the Clash
-*Screenshot showing the merge attempt and the conflict warning.*
 
-[PASTE SCREENSHOT OF ATTEMPTED MERGE / TERMINAL WARNING HERE]
+[![The clash](con1clash.png)]
 
-* **Caption:** [Describe which two branches collided and the warning received]
+* **Caption:** [A clash occcured since the change was on similar items]
 
 #### Step 2: Inside the Code Editor (Conflict Markers)
-*Screenshot showing the raw, unresolved conflict markers (`<<<<<<< HEAD`, `=======`, `>>>>>>>`) in your editor.*
 
-[PASTE SCREENSHOT OF RAW CONFLICT MARKERS HERE]
+[![The clash](conflict1.png)]
 
-* **Caption:** [Explain what caused the dispute and your reasoning for the final version]
+* **Caption:** [Conflict 1 branch and the main branch collided and i used the resolve merger to pick the best caption.]
 
 #### Step 3: Resolution & Clean Merge
-*Screenshot of your clean Git history or completed PR showing the conflict was resolved and merged.*
 
-[PASTE SCREENSHOT OF CLEAN RESOLUTION HERE]
+[![Conflict 1 resolved](con1resloved.png)]
 
-* **Caption:** [Describe the final state after resolution]
+* **Caption:** [Conflict 1 was resloved well after committing]
 
 ---
 
