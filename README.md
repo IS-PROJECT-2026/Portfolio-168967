@@ -28,3 +28,5 @@ This project is a simple personal portfolio designed to provide information abou
 - GitHub
 - GitHub Pages
 
+## Link to the project
+[https://is-project-2026.github.io/Portfolio-168967/]
