@@ -211,4 +211,26 @@ footer {
     section h2 {
         font-size: 27px;
     }
+        /* Project Filters */
+    .project-filters {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin: 25px 0;
+    }
+
+    .filter-btn {
+        padding: 10px 18px;
+        border: 1px solid #222;
+        background-color: white;
+        color: #222;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .filter-btn:hover,
+    .filter-btn.active {
+        background-color: #222;
+        color: white;
+    }
 }

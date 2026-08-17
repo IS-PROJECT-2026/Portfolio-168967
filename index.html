@@ -84,9 +84,29 @@
 
     <h2>My Projects</h2>
 
+    <div class="project-filters">
+
+        <button class="filter-btn active" data-filter="all">
+            All
+        </button>
+
+        <button class="filter-btn" data-filter="web">
+            Web Development
+        </button>
+
+        <button class="filter-btn" data-filter="data">
+            Data Science
+        </button>
+
+        <button class="filter-btn" data-filter="iot">
+            IoT
+        </button>
+
+    </div>
+
     <div class="project-container">
 
-        <div class="project-card">
+        <div class="project-card" data-category="web">
             <h3>Water Management System</h3>
             <p>
                 A web-based system for managing water production,
@@ -94,7 +114,7 @@
             </p>
         </div>
 
-        <div class="project-card">
+        <div class="project-card" data-category="iot">
             <h3>Smart Farm System</h3>
             <p>
                 An IoT-based system for monitoring environmental
@@ -102,10 +122,17 @@
             </p>
         </div>
 
+        <div class="project-card" data-category="data">
+            <h3>Data Analysis Project</h3>
+            <p>
+                A data analysis project involving data preprocessing,
+                analysis and visualization.
+            </p>
+        </div>
+
     </div>
 
 </section>
-      
 
         <!-- Contact Section -->
         <section id="contact">
@@ -125,6 +152,8 @@
     <footer>
         <p>&copy; 2026 Kamuren. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
