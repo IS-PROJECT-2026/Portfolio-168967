@@ -70,12 +70,6 @@ If you had to restart this project from scratch with everything you know now, na
 
 ## 5. Merge Conflict Evidence
 
-You must engineer **three merge conflicts**, each triggered by a **different cause** from those covered in the lecture. For Conflict 1, document the full resolution lifecycle. For Conflicts 2 and 3, provide the conflict marker screenshot and identify the cause.
-
-> **Marks:** Conflict 1 full chronology (2 marks) · Conflict 2 (1 mark) · Conflict 3 (1 mark) · All three use distinct causes (1 mark) = **5 marks total**
-
----
-
 ### Conflict 1 — Full Chronology
 
 **What cause did you use?** [Same line modified differently]
@@ -88,38 +82,14 @@ You must engineer **three merge conflicts**, each triggered by a **different cau
 
 #### Step 2: Inside the Code Editor (Conflict Markers)
 
-[![The clash](conflict1.png)]
+[![The VSCode clash](conflict1.png)]
 
 * **Caption:** [Conflict 1 branch and the main branch collided and i used the resolve merger to pick the best caption.]
 
 #### Step 3: Resolution & Clean Merge
 
-[![Conflict 1 resolved](con1resloved.png)]
+[![Conflict resolved](con1resloved.png)]
 
 * **Caption:** [Conflict 1 was resloved well after committing]
-
----
-
-### Conflict 2 — Different Cause
-
-**What cause did you use?** [Name the type of conflict cause — must be different from Conflict 1]
-
-**Why does this cause trigger a conflict?** [1–2 sentences explaining the mechanism]
-
-[PASTE SCREENSHOT OF CONFLICT MARKERS FOR CONFLICT 2 HERE]
-
-* **Caption:** [Brief description of the conflicting branches and file]
-
----
-
-### Conflict 3 — Different Cause
-
-**What cause did you use?** [Name the type of conflict cause — must be different from Conflicts 1 and 2]
-
-**Why does this cause trigger a conflict?** [1–2 sentences explaining the mechanism]
-
-[PASTE SCREENSHOT OF CONFLICT MARKERS FOR CONFLICT 3 HERE]
-
-* **Caption:** [Brief description of the conflicting branches and file]
 
 ---
